@@ -7,6 +7,59 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background: hsl(0, 0%, 60%);
+  font-size: 18px;
+}
+
+header {
+  background: hsl(0, 0%, 100%);
+  border-bottom: 8px solid  hsl(0, 0%, 40%);
+  padding-bottom: 32px;
+}
+header p {
+  margin: 32px;
+  font-size: 1.25rem;
+  max-width: 400px;
+}
+header strong {
+  color: hsl(160deg, 100%, 30%);
+}
+header h1 {
+  font-size: 1.5rem;
+  padding: 64px 32px 32px 32px;
+  margin: 0;
+}
+
+.max-width-wrapper {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 64px;
+}
+
+main section {
+  background: hsl(0, 0%, 100%);
+  border-bottom: 8px solid  hsl(0, 0%, 40%);
+}
+
+main .card {
+  padding-top: 8px;
+}
+
+main h2 {
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  font-size: 1.25rem;
+  padding: 16px 48px;
+  width: fit-content;
+  max-width: 500px;
+  margin: 0 24px 0 -16px;
+}
+
+main p {
+  margin: 32px;
 }
 
 /* Add styles here! */
